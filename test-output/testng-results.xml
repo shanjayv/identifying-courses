@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-11T12:10:13 IST" name="Suite" finished-at="2024-03-11T12:14:34 IST" duration-ms="260814">
+    <groups>
+      <group name="regression">
+        <method signature="TC_002.enterNewCourse()[pri:0, instance:testCases.TC_002@70325e14]" name="enterNewCourse" class="testCases.TC_002"/>
+        <method signature="TC_003.clickCourseTitle()[pri:0, instance:testCases.TC_003@37ceb1df]" name="clickCourseTitle" class="testCases.TC_003"/>
+        <method signature="TC_001.clickLanguage()[pri:1, instance:testCases.TC_001@77f1baf5]" name="clickLanguage" class="testCases.TC_001"/>
+        <method signature="TC_002.clickShowMore()[pri:1, instance:testCases.TC_002@70325e14]" name="clickShowMore" class="testCases.TC_002"/>
+        <method signature="TC_003.clickEnterpriseLink()[pri:1, instance:testCases.TC_003@37ceb1df]" name="clickEnterpriseLink" class="testCases.TC_003"/>
+        <method signature="TC_001.clickLevel()[pri:2, instance:testCases.TC_001@77f1baf5]" name="clickLevel" class="testCases.TC_001"/>
+        <method signature="TC_002.printTotalLangs()[pri:2, instance:testCases.TC_002@70325e14]" name="printTotalLangs" class="testCases.TC_002"/>
+        <method signature="TC_001.printCourse1()[pri:3, instance:testCases.TC_001@77f1baf5]" name="printCourse1" class="testCases.TC_001"/>
+        <method signature="TC_002.printTotalLevels()[pri:3, instance:testCases.TC_002@70325e14]" name="printTotalLevels" class="testCases.TC_002"/>
+        <method signature="TC_001.printDetails1()[pri:4, instance:testCases.TC_001@77f1baf5]" name="printDetails1" class="testCases.TC_001"/>
+        <method signature="TC_003.setFirstLastName()[pri:4, instance:testCases.TC_003@37ceb1df]" name="setFirstLastName" class="testCases.TC_003"/>
+        <method signature="TC_001.printCourse2()[pri:5, instance:testCases.TC_001@77f1baf5]" name="printCourse2" class="testCases.TC_001"/>
+        <method signature="TC_003.setEmailId()[pri:5, instance:testCases.TC_003@37ceb1df]" name="setEmailId" class="testCases.TC_003"/>
+        <method signature="TC_001.printDetails2()[pri:6, instance:testCases.TC_001@77f1baf5]" name="printDetails2" class="testCases.TC_001"/>
+        <method signature="TC_003.setMobileNo()[pri:6, instance:testCases.TC_003@37ceb1df]" name="setMobileNo" class="testCases.TC_003"/>
+        <method signature="TC_003.setInstituteDetails()[pri:7, instance:testCases.TC_003@37ceb1df]" name="setInstituteDetails" class="testCases.TC_003"/>
+        <method signature="TC_003.SetJobRole()[pri:8, instance:testCases.TC_003@37ceb1df]" name="SetJobRole" class="testCases.TC_003"/>
+        <method signature="TC_003.setDepartmentDetails()[pri:9, instance:testCases.TC_003@37ceb1df]" name="setDepartmentDetails" class="testCases.TC_003"/>
+        <method signature="TC_003.setCountryState()[pri:10, instance:testCases.TC_003@37ceb1df]" name="setCountryState" class="testCases.TC_003"/>
+        <method signature="TC_003.verifyEmailId()[pri:12, instance:testCases.TC_003@37ceb1df]" name="verifyEmailId" class="testCases.TC_003"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_001.enterCourseName()[pri:0, instance:testCases.TC_001@77f1baf5]" name="enterCourseName" class="testCases.TC_001"/>
+        <method signature="TC_003.clickCourseTitle()[pri:0, instance:testCases.TC_003@37ceb1df]" name="clickCourseTitle" class="testCases.TC_003"/>
+        <method signature="TC_001.clickLanguage()[pri:1, instance:testCases.TC_001@77f1baf5]" name="clickLanguage" class="testCases.TC_001"/>
+        <method signature="TC_002.clickShowMore()[pri:1, instance:testCases.TC_002@70325e14]" name="clickShowMore" class="testCases.TC_002"/>
+        <method signature="TC_003.clickEnterpriseLink()[pri:1, instance:testCases.TC_003@37ceb1df]" name="clickEnterpriseLink" class="testCases.TC_003"/>
+        <method signature="TC_001.clickLevel()[pri:2, instance:testCases.TC_001@77f1baf5]" name="clickLevel" class="testCases.TC_001"/>
+        <method signature="TC_002.printTotalLangs()[pri:2, instance:testCases.TC_002@70325e14]" name="printTotalLangs" class="testCases.TC_002"/>
+        <method signature="TC_003.clickWeOfferLink()[pri:2, instance:testCases.TC_003@37ceb1df]" name="clickWeOfferLink" class="testCases.TC_003"/>
+        <method signature="TC_001.printCourse1()[pri:3, instance:testCases.TC_001@77f1baf5]" name="printCourse1" class="testCases.TC_001"/>
+        <method signature="TC_003.clickLearnMoreButton()[pri:3, instance:testCases.TC_003@37ceb1df]" name="clickLearnMoreButton" class="testCases.TC_003"/>
+        <method signature="TC_003.setFirstLastName()[pri:4, instance:testCases.TC_003@37ceb1df]" name="setFirstLastName" class="testCases.TC_003"/>
+        <method signature="TC_001.printCourse2()[pri:5, instance:testCases.TC_001@77f1baf5]" name="printCourse2" class="testCases.TC_001"/>
+        <method signature="TC_003.setEmailId()[pri:5, instance:testCases.TC_003@37ceb1df]" name="setEmailId" class="testCases.TC_003"/>
+        <method signature="TC_003.setMobileNo()[pri:6, instance:testCases.TC_003@37ceb1df]" name="setMobileNo" class="testCases.TC_003"/>
+        <method signature="TC_003.SetJobRole()[pri:8, instance:testCases.TC_003@37ceb1df]" name="SetJobRole" class="testCases.TC_003"/>
+        <method signature="TC_003.setDepartmentDetails()[pri:9, instance:testCases.TC_003@37ceb1df]" name="setDepartmentDetails" class="testCases.TC_003"/>
+        <method signature="TC_003.setCountryState()[pri:10, instance:testCases.TC_003@37ceb1df]" name="setCountryState" class="testCases.TC_003"/>
+        <method signature="TC_003.clickSubmitButton()[pri:11, instance:testCases.TC_003@37ceb1df]" name="clickSubmitButton" class="testCases.TC_003"/>
+        <method signature="TC_003.verifyEmailId()[pri:12, instance:testCases.TC_003@37ceb1df]" name="verifyEmailId" class="testCases.TC_003"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-03-11T12:10:13 IST" name="Test" finished-at="2024-03-11T12:14:34 IST" duration-ms="260814">
+      <class name="testCases.TC_003">
+        <test-method signature="clickCourseTitle()[pri:0, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:12:27 IST" name="clickCourseTitle" finished-at="2024-03-11T12:12:55 IST" duration-ms="28080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCourseTitle -->
+        <test-method signature="clickEnterpriseLink()[pri:1, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:12:55 IST" name="clickEnterpriseLink" finished-at="2024-03-11T12:13:24 IST" duration-ms="29058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEnterpriseLink -->
+        <test-method signature="clickWeOfferLink()[pri:2, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:13:25 IST" name="clickWeOfferLink" finished-at="2024-03-11T12:13:51 IST" duration-ms="26233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickWeOfferLink -->
+        <test-method signature="clickLearnMoreButton()[pri:3, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:13:52 IST" name="clickLearnMoreButton" finished-at="2024-03-11T12:14:18 IST" duration-ms="26610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLearnMoreButton -->
+        <test-method signature="setFirstLastName()[pri:4, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:19 IST" name="setFirstLastName" finished-at="2024-03-11T12:14:21 IST" duration-ms="1396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFirstLastName -->
+        <test-method signature="setEmailId()[pri:5, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:21 IST" name="setEmailId" finished-at="2024-03-11T12:14:22 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEmailId -->
+        <test-method signature="setMobileNo()[pri:6, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:22 IST" name="setMobileNo" finished-at="2024-03-11T12:14:23 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMobileNo -->
+        <test-method signature="setInstituteDetails()[pri:7, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:23 IST" name="setInstituteDetails" finished-at="2024-03-11T12:14:24 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setInstituteDetails -->
+        <test-method signature="SetJobRole()[pri:8, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:24 IST" name="SetJobRole" finished-at="2024-03-11T12:14:24 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetJobRole -->
+        <test-method signature="setDepartmentDetails()[pri:9, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:25 IST" name="setDepartmentDetails" finished-at="2024-03-11T12:14:26 IST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDepartmentDetails -->
+        <test-method signature="setCountryState()[pri:10, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:27 IST" name="setCountryState" finished-at="2024-03-11T12:14:28 IST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCountryState -->
+        <test-method signature="clickSubmitButton()[pri:11, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:28 IST" name="clickSubmitButton" finished-at="2024-03-11T12:14:28 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSubmitButton -->
+        <test-method signature="verifyEmailId()[pri:12, instance:testCases.TC_003@37ceb1df]" started-at="2024-03-11T12:14:29 IST" name="verifyEmailId" finished-at="2024-03-11T12:14:32 IST" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailId -->
+      </class> <!-- testCases.TC_003 -->
+      <class name="testCases.TC_001">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:10:15 IST" name="setup" finished-at="2024-03-11T12:10:35 IST" duration-ms="19586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterCourseName()[pri:0, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:10:35 IST" name="enterCourseName" finished-at="2024-03-11T12:11:00 IST" duration-ms="25515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCourseName -->
+        <test-method signature="clickLanguage()[pri:1, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:11:01 IST" name="clickLanguage" finished-at="2024-03-11T12:11:05 IST" duration-ms="3572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLanguage -->
+        <test-method signature="clickLevel()[pri:2, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:11:07 IST" name="clickLevel" finished-at="2024-03-11T12:11:08 IST" duration-ms="1305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLevel -->
+        <test-method signature="printCourse1()[pri:3, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:11:09 IST" name="printCourse1" finished-at="2024-03-11T12:11:12 IST" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printCourse1 -->
+        <test-method signature="printDetails1()[pri:4, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:11:13 IST" name="printDetails1" finished-at="2024-03-11T12:11:39 IST" duration-ms="26318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printDetails1 -->
+        <test-method signature="printCourse2()[pri:5, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:11:40 IST" name="printCourse2" finished-at="2024-03-11T12:11:41 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printCourse2 -->
+        <test-method signature="printDetails2()[pri:6, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:11:42 IST" name="printDetails2" finished-at="2024-03-11T12:12:09 IST" duration-ms="27897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printDetails2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001@77f1baf5]" started-at="2024-03-11T12:14:33 IST" name="teardown" finished-at="2024-03-11T12:14:34 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001 -->
+      <class name="testCases.TC_002">
+        <test-method signature="enterNewCourse()[pri:0, instance:testCases.TC_002@70325e14]" started-at="2024-03-11T12:12:10 IST" name="enterNewCourse" finished-at="2024-03-11T12:12:13 IST" duration-ms="3226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNewCourse -->
+        <test-method signature="clickShowMore()[pri:1, instance:testCases.TC_002@70325e14]" started-at="2024-03-11T12:12:15 IST" name="clickShowMore" finished-at="2024-03-11T12:12:16 IST" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickShowMore -->
+        <test-method signature="printTotalLangs()[pri:2, instance:testCases.TC_002@70325e14]" started-at="2024-03-11T12:12:16 IST" name="printTotalLangs" finished-at="2024-03-11T12:12:23 IST" duration-ms="6600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTotalLangs -->
+        <test-method signature="printTotalLevels()[pri:3, instance:testCases.TC_002@70325e14]" started-at="2024-03-11T12:12:23 IST" name="printTotalLevels" finished-at="2024-03-11T12:12:26 IST" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTotalLevels -->
+      </class> <!-- testCases.TC_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
